@@ -1,0 +1,162 @@
+body{
+  margin:100px 0;
+}
+a {
+  text-decoration: none;
+ color: inherit;
+ letter-spacing: 10px;
+}
+hr {
+  border-top: 1px solid grey;
+}
+.hr-start {
+  margin-left: 30px;
+}
+.hr-startstop {
+  margin-right: 150px;
+}
+.hr-end {
+  margin-right: 30px;
+  width:400px;
+}
+.vl-start {
+  border-left: 2px solid grey;
+  height: 450px;
+  position:absolute;
+  left:55px;
+  top:110px;
+}
+.vl-end {
+  border-right: 2px solid grey;
+  height: 650px;
+  position:absolute;
+  right:55px;
+  top:100px;
+}
+div {
+  text-align: center;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  }
+
+/************CLASSES***********/
+
+.banner {
+  margin: 0 80px;
+  font-size: 4rem;
+  text-align:left;
+}
+.btn {
+  display:inline-block;
+  font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+  color:red;
+}
+
+.btn-psn1 {
+  position: relative;
+}
+.btn-psn2 {
+  position: relative;
+}
+
+.btn-psn3 {
+  position: relative;
+}
+.background-grid {
+  height: 400px;
+
+   background-image: radial-gradient(circle, grey 5%, transparent 5%);
+     background-color: #eaf6f6;
+     background-size: 20px 20px;
+   background-position: 0 0;
+    z-index: -1;
+}
+
+.bckrd-start {
+  margin-left:63px;
+}
+.bckrd-stop {
+  margin-right:63px;
+}
+
+.myself {
+  position:relative;
+  margin: 0 auto;
+  top: 120px;
+  width:900px;
+  font-size: 5rem;
+  line-height:2;
+  letter-spacing: 4px;
+  color:#008585;
+  background-color: rgba(0,133,133,20%);
+  border-radius: 15px;
+}
+.supscripted {
+  position:relative;
+  bottom:20px;
+  right:10px;
+  text-transform: lowercase;
+  font-size: 0.5em;
+  font-weight: 100;
+}
+
+.me{
+  position:relative;
+  margin:0 auto;
+  top:120px;
+  letter-spacing: 3px;
+  color:teal;
+}
+
+.wannabee{
+  display:inline-block;
+  position: absolute;
+  top:50px;
+
+  line-height:650px;
+  padding: 0 20px 0;
+  color:white;
+
+  background-color: rgba(0,133,133,30%);
+  border:2px solid grey;
+  border-style: dotted solid;
+  border-radius: 20px;
+ }
+.bee {
+  width: 25px;
+}
+
+.goat1 {
+  position:relative;
+  z-index: 0;
+  height:300px;
+  padding:50px;
+}
+
+.next {
+  text-align:right;
+  bottom:65px;
+  margin-right:70px;
+}
+.next-btn {
+  font-size: 2rem;
+}
+.next-btn:hover{
+   color:red;
+}
